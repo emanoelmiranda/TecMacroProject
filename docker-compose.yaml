@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  app:
+    build:
+      context: .
+    image: tec-macro-project
+    ports:
+      - 1000:8080
+    container_name: tec-macro-project
+    tty: true
